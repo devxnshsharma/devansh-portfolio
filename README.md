@@ -3,8 +3,7 @@
 # Web Development Fundamentals
 ## Digital Assignment Submission
 
-<br/><br/>
-
+<br/>
 **Name:** Devansh Sharma
 **Registration Number:** 24BCE0717
 
@@ -17,8 +16,8 @@
 ### GitHub Repository
 [https://github.com/devxnshsharma/devansh-studio](https://github.com/devxnshsharma/devansh-portfolio)
 
-### Live Webpage Link (GitHub Pages)
-[https://devxnshsharma.github.io/devansh-studio/](https://devxnshsharma.github.io/devansh-studio/)
+### Live Webpage Link (Vercel)
+[https://devansh-studio.vercel.app](https://devansh-studio.vercel.app)
 
 </div>
 
@@ -42,7 +41,7 @@
 - **Styling:** Tailwind CSS for rapid, utility-first styling.
 - **Animations:** Framer Motion for smooth, declarative transitions and GSAP for scroll animations.
 - **Icons:** `lucide-react` to keep the UI clean and modern.
-**Design Choices:** A clear "Dark Cyberpunk/Modern Minimalist" aesthetic with deep contrast, glassmorphism, and smooth scroll effects. Decided to focus on a one-page robust interactive scroll-driven UI.
+**Design Choices:** A clear "Dark & Modern Minimalist" aesthetic with deep contrast, glassmorphism, and smooth scroll effects. Decided to focus on a one-page robust interactive scroll-driven UI.
 
 ### 2. Project Initialization
 - Used `npm create vite@latest devansh-studio --template react-ts` to scaffold the project structure.
@@ -73,12 +72,11 @@
   git remote add origin https://github.com/devxnshsharma/devansh-studio.git
   git push -u origin main
   ```
-- Regularly committed structural and feature updates (e.g., `git commit -m "feat: added custom cursor"`).
 
 ### 6. Deployment Process
 - Configured Vite for relative base paths inside `vite.config.ts`.
-- Set up the GitHub Pages environment.
-- Successfully built the application using `npm run build` and pointed the GitHub Pages settings to host directly from the deployment branch.
+- Set up the Vercel environment.
+- Successfully built the application using `npm run build` and pointed the vercel settings to host directly from the deployment branch.
 
 ---
 
@@ -95,7 +93,7 @@ Through this project, I gained pivotal insights into web development. The 10 key
 7. **Version Control Mechanics:** Realized the critical importance of discrete commits and atomic version history via Git to safeguard project progress.
 8. **Scroll Optimization:** Dealt with mapping UI reveals tightly triggered by the browser scroll events, balancing effects without causing layout thrashing.
 9. **Accessibility First Contexts:** Used semantic HTML tags out of the box to keep the interactive layer functional for varied inputs.
-10. **CI/CD Paradigms:** Set up the codebase to automatically build and deploy to a live static hosting environment (GitHub Pages).
+10. **CI/CD Paradigms:** Set up the codebase to automatically build and deploy to a live static hosting environment (Vercel).
 
 ---
 
