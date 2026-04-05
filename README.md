@@ -114,10 +114,15 @@ Ultimately, crafting this platform provides immense educational benefits in mast
 ## Screenshots
 
 ### 1. Landing / Hero Section
+![Image](https://github.com/user-attachments/assets/01da179a-e726-4277-a038-c70e960d168c)
+![Image](https://github.com/user-attachments/assets/010ceea7-bcf0-4932-ad4e-72494734690c)
+
+
 
 
 ### 2. Portfolio / Projects Gallery
-
+![Image](https://github.com/user-attachments/assets/a1f2e17f-3914-4977-88c9-3c13338e250f)
 
 ### 3. Contact Section
+![Image](https://github.com/user-attachments/assets/36efb5c0-458f-4366-bf2f-54fb38208bc1)
 
