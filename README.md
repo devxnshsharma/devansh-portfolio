@@ -2,9 +2,10 @@
 
 # Web Development Fundamentals
 ## Digital Assignment Submission
-
 <br/>
+
 **Name:** Devansh Sharma
+
 **Registration Number:** 24BCE0717
 
 </div>
