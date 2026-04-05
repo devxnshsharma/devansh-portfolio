@@ -5,6 +5,9 @@ import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
   base: process.env.GITHUB_ACTIONS ? '/devansh-portfolio/' : '/',
+  build: {
+    chunkSizeWarningLimit: 1000,
+  },
   server: {
     host: "::",
     port: 8080,
