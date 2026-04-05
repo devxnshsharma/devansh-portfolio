@@ -1,13 +1,14 @@
 <div style="page-break-after: always; display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 80vh; text-align: center;">
 
-# Web Development Fundamentals
-## Digital Assignment Submission
+# My Personal Portfolio
+## Digital Assignment – I
 <br/>
 
 **Name:** Devansh Sharma
 
 **Registration Number:** 24BCE0717
 
+_*BCSE203E - Web Programming*_
 </div>
 
 <div style="page-break-after: always; display: flex; flex-direction: column; justify-content: center; align-items: center; min-height: 80vh; text-align: center;">
@@ -68,7 +69,7 @@
 - Followed standard version control commands:
   ```bash
   git add .
-  git commit -m "Initial portfolio commit"
+  git commit -m "added new files"
   git branch -M main
   git remote add origin https://github.com/devxnshsharma/devansh-studio.git
   git push -u origin main
