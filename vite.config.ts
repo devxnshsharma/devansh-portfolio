@@ -4,6 +4,7 @@ import path from "path";
 import { componentTagger } from "lovable-tagger";
 
 export default defineConfig(({ mode }) => ({
+  // This handles Vercel ('/') vs GitHub Pages ('/devansh-portfolio/')
   base: process.env.GITHUB_ACTIONS ? '/devansh-portfolio/' : '/',
   build: {
     chunkSizeWarningLimit: 1000,
