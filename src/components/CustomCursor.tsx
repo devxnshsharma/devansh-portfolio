@@ -1,4 +1,5 @@
 import React, { useEffect, useRef, useState } from "react";
+import cursorIcon from "@/assets/cursor.svg"; 
 
 const CustomCursor: React.FC = () => {
   const cursorRef = useRef<HTMLDivElement>(null);
@@ -93,7 +94,7 @@ const CustomCursor: React.FC = () => {
         }}
       >
         <img
-          src="/cursor.svg"
+          src={cursorIcon} /* 2. USE THE IMPORTED VARIABLE HERE */
           width={32}
           height={32}
           alt="cursor"
