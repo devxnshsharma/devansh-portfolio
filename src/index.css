@@ -139,4 +139,106 @@
     mask-composite: exclude;
     pointer-events: none;
   }
+
+  /* Legal page content typography */
+  .legal-content h2 {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 1.75rem;
+    line-height: 1;
+    letter-spacing: -0.025em;
+    color: hsl(var(--foreground));
+    margin-top: 2rem;
+    margin-bottom: 0.75rem;
+    padding-top: 1.25rem;
+    border-top: 1px solid hsl(var(--foreground) / 0.06);
+  }
+
+  .legal-content h2:first-child {
+    margin-top: 0;
+    padding-top: 0;
+    border-top: none;
+  }
+
+  .legal-content h3 {
+    font-family: 'Instrument Serif', serif;
+    font-style: italic;
+    font-size: 1.25rem;
+    line-height: 1.1;
+    letter-spacing: -0.015em;
+    color: hsl(var(--foreground) / 0.9);
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .legal-content h4 {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 500;
+    font-size: 0.875rem;
+    text-transform: uppercase;
+    letter-spacing: 0.05em;
+    color: hsl(var(--foreground) / 0.7);
+    margin-top: 1.25rem;
+    margin-bottom: 0.5rem;
+  }
+
+  .legal-content p {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: hsl(var(--foreground) / 0.55);
+    margin-bottom: 0.75rem;
+  }
+
+  .legal-content ul {
+    list-style: none;
+    padding-left: 0;
+    margin-bottom: 0.75rem;
+  }
+
+  .legal-content ul li {
+    font-family: 'Barlow', sans-serif;
+    font-weight: 300;
+    font-size: 0.9375rem;
+    line-height: 1.7;
+    color: hsl(var(--foreground) / 0.55);
+    padding-left: 1.25rem;
+    position: relative;
+    margin-bottom: 0.35rem;
+  }
+
+  .legal-content ul li::before {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0.7em;
+    width: 4px;
+    height: 4px;
+    border-radius: 50%;
+    background: hsl(var(--foreground) / 0.25);
+  }
+
+  .legal-content ul ul {
+    margin-top: 0.35rem;
+    margin-bottom: 0.35rem;
+    padding-left: 1rem;
+  }
+
+  .legal-content strong {
+    font-weight: 500;
+    color: hsl(var(--foreground) / 0.8);
+  }
+
+  .legal-content a {
+    color: hsl(var(--foreground) / 0.7);
+    text-decoration: none;
+    border-bottom: 1px solid hsl(var(--foreground) / 0.15);
+    transition: color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .legal-content a:hover {
+    color: hsl(var(--foreground));
+    border-bottom-color: hsl(var(--foreground) / 0.4);
+  }
 }

@@ -1,4 +1,5 @@
 import { Github, Linkedin } from "lucide-react";
+import { Link } from "react-router-dom";
 import HlsVideo from "./HlsVideo";
 
 const CTAFooter = () => {
@@ -72,12 +73,12 @@ const CTAFooter = () => {
         <div className="mt-32 pt-8 border-t border-foreground/10 w-full flex flex-col md:flex-row items-center justify-between text-foreground/40 text-xs font-body">
           <span>© 2026 Devansh Sharma</span>
           <div className="flex items-center gap-6 mt-4 md:mt-0">
-            <a href="#" className="hover:text-foreground/60 transition-colors">
+            <Link to="/privacy" className="hover:text-foreground/60 transition-colors">
               Privacy
-            </a>
-            <a href="#" className="hover:text-foreground/60 transition-colors">
+            </Link>
+            <Link to="/terms" className="hover:text-foreground/60 transition-colors">
               Terms
-            </a>
+            </Link>
             <a
               href="mailto:devanshsharma0363@gmail.com"
               className="hover:text-foreground/60 transition-colors"
