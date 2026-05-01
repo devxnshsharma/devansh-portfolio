@@ -7,7 +7,8 @@ const projects = [
     tech: "JavaScript, Chart.js, HTML5, CSS3",
     description:
       "A decision support system optimizing 6,000+ monthly mess credits with custom predictive burn-rate analysis and a dynamic Daily Safe Limit algorithm that adapts to user risk tolerance.",
-    link: "https://github.com/devxnshsharma/unmessify",
+    githubLink: "https://github.com/devxnshsharma/unmessify",
+    liveLink: "https://devxnshsharma.github.io/unmessify",
   },
   {
     title: "MedRep",
@@ -15,7 +16,7 @@ const projects = [
     tech: "Python, MySQL, PyMySQL",
     description:
       "Secure student health portal built on a strictly normalized relational schema with enforced Role-Based Access Control (RBAC), preventing SQL injection, plus automated diagnostic alerts for BMI and vaccinations.",
-    link: "https://github.com/devxnshsharma/student-health-projekt",
+    githubLink: "https://github.com/devxnshsharma/student-health-projekt",
   },
   {
     title: "SkyCast",
@@ -23,7 +24,7 @@ const projects = [
     tech: "React, JavaScript, REST APIs",
     description:
       "Responsive weather dashboard demonstrating optimized asynchronous state handling and dynamic UI updates with LocalStorage-based caching for performance.",
-    link: "https://github.com/devxnshsharma/weather-app",
+    githubLink: "https://github.com/devxnshsharma/weather-app",
   },
 ];
 
@@ -60,15 +61,28 @@ const Projects = () => {
             <p className="font-body font-light text-foreground/60 text-sm flex-1 mb-6">
               {project.description}
             </p>
-            <a
-              href={project.link}
-              target="_blank"
-              rel="noopener noreferrer"
-              className="liquid-glass-strong rounded-full font-body font-medium text-sm text-foreground px-5 py-2.5 inline-flex items-center gap-2 self-start hover:bg-white/10 transition-colors"
-            >
-              View on GitHub
-              <ArrowUpRight className="w-3.5 h-3.5" />
-            </a>
+            <div className="flex flex-wrap gap-3">
+              {project.liveLink && (
+                <a
+                  href={project.liveLink}
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="bg-foreground text-background rounded-full font-body font-medium text-sm px-5 py-2.5 inline-flex items-center gap-2 hover:bg-foreground/90 transition-colors"
+                >
+                  Live Link
+                  <ArrowUpRight className="w-3.5 h-3.5" />
+                </a>
+              )}
+              <a
+                href={project.githubLink}
+                target="_blank"
+                rel="noopener noreferrer"
+                className="liquid-glass-strong rounded-full font-body font-medium text-sm text-foreground px-5 py-2.5 inline-flex items-center gap-2 hover:bg-white/10 transition-colors"
+              >
+                View on GitHub
+                <ArrowUpRight className="w-3.5 h-3.5" />
+              </a>
+            </div>
           </div>
         ))}
       </div>
